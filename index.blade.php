@@ -30,7 +30,7 @@ body{
             <input type="number" id="amount" placeholder="Please enter the deposit amount">
         </div>
         <div class="amount-btn">
-            <a href="javascript:void(0)" onclick="getAmount(500)" class="reach-btn">500.00</a>
+            <a href="javascript:void(0)" onclick="getAmount(50)" class="reach-btn">50.00</a>
             <a href="javascript:void(0)" onclick="getAmount(1000)" class="reach-btn">1000.00</a>
             <a href="javascript:void(0)" onclick="getAmount(3000)" class="reach-btn">3000.00</a>
             <a href="javascript:void(0)" onclick="getAmount(10000)" class="reach-btn">10000.00</a>

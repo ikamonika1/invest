@@ -137,7 +137,7 @@ class RegisteredUserController extends Controller
             'type' => 'user',
             'income' => 0,
             'phone' => $request->phone,
-            'phone_code' => '+234',
+            'phone_code' => '+63',
             'ip' => $getIp,
             'code' => rand(111111, 999999),
             'remember_token' => Str::random(30),

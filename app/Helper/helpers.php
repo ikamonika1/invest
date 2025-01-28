@@ -37,7 +37,7 @@ if (! function_exists('price')) {
     function price($price)
     {
 //        return number_format($price, 2);
-        return $currency = '$'.str_replace(',', '', $price);
+        return $currency = '₱'.str_replace(',', '', $price);
         return $currency. number_format($price, 2);
     }
 }

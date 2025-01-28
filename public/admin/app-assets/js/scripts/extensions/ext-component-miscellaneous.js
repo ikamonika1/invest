@@ -297,7 +297,7 @@ $(document).ready(function () {
   // formate
   $(".fnum").text(numeral(1230974).format('0.0a'));
   // currency
-  $(".fcurrecy").text(numeral(1000.234).format("₱0,0.000"));
+  $(".fcurrecy").text(numeral(1000.234).format("$0,0.000"));
   // bytes
   $(".fbytes").text(numeral(3467479682787).format('0.000ib'));
   // percentages

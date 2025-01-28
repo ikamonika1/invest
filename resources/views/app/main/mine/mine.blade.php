@@ -27,7 +27,7 @@
     <div class="jianbian"> 
      <div class="flex_sta"> 
       <img class="balanceicon" src="{{asset('public/bp/img/balance.png')}}" alt=""> 
-      <p>Balanc</p> 
+      <p>Balance</p> 
      </div> 
      <h3>{{price(auth()->user()->balance)}}</h3> 
      <img class="coinimg" src="{{asset('public/bp/img/coin.png')}}" alt=""> 

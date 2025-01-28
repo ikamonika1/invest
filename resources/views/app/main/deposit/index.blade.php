@@ -70,14 +70,14 @@
                 <div class="amount_row">
                     
                     <div class="amount_fix"><button onclick="getAmount(100)">100</button></div>
-                    <div class="amount_fix"><button onclick="getAmount(15000)">15000</button></div>
-                    <div class="amount_fix"><button onclick="getAmount(35000)">35000</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(300)">300</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(600)">600</button></div>
                 </div>
 
                 <div class="amount_row">
-                    <div class="amount_fix"><button onclick="getAmount(78000)">78000</button></div>
-                    <div class="amount_fix"><button onclick="getAmount(150000)">150000</button></div>
-                    <div class="amount_fix"><button onclick="getAmount(260000)">260000</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(1000)">1000</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(2000)">2000</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(5000)">5000</button></div>
                     
                 </div>
             </div>

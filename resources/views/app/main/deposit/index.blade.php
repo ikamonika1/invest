@@ -92,7 +92,7 @@
 
     <div style="padding:15px;">
         <span>Recharge rules:<br>
-            1. The minimum deposit {{price(2500)}}<br>
+            1. The minimum deposit {{price(100)}}<br>
             2. Secured and safety way to payment systems.<br>
             3. Once you recharge your account successful before 3 minutes your deposit reflect into your wallet, very important if you do any fake deposit it will results your account disabled<br>
         </span>

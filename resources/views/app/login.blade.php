@@ -65,7 +65,7 @@
     <!-- Footer Section -->
     <div class="flex flex-col items-center py-4 border-t border-gray-200">
       <img src="https://placehold.co/20x20" alt="Footer Logo" class="w-5 h-5 mb-2">
-      <p class="text-xs text-gray-500">BP p.l.c. Copyright © 1996–2024</p>
+      <p class="text-xs text-gray-500">BGLV2 Copyright © 1996–2025</p>
     </div>
   </div>
 

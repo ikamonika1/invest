@@ -2064,8 +2064,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `ref_by`, `ref_id`, `name`, `realname`, `phone_code`, `phone`, `ip`, `username`, `email`, `email_verified_at`, `password`, `type`, `balance`, `income`, `receive_able_amount`, `w_password`, `photo`, `gateway_method`, `bank_name`, `gateway_address`, `bank_password`, `remember_token`, `code`, `status`, `bonus_vip`, `first_time_bonus`, `ban_unban`, `created_at`, `updated_at`) VALUES
-(5399, '840oxe282jgx', '648kjlypq441', 'User84', NULL, '+234', '+8801569110030', '182.48.70.173', 'uname+8801569110030', 'user470321731438880@gmail.com', NULL, '$2y$10$EgAHj.fsk8u2KIrPzoIyq.Kx/bUJ43rWL2EtS92S9tW67/JSn4KWu', NULL, 6200.00, 300.00, 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '568600', 'active', 0, 0, 'unban', '2024-11-12 20:14:40', '2024-11-12 20:37:00'),
-(5400, '648kjlypq441', 'eof411elm942', 'User65', NULL, '+234', '65465654', '88.246.194.56', 'uname65465654', 'user554441731970747@gmail.com', NULL, '$2y$10$QbgRu.X4zQboYh1wot.7eObmgMe5S4Y2KciYK9SseekH0sBJYRaNy', NULL, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '466733', 'active', 0, 0, 'unban', '2024-11-18 23:59:07', '2024-11-18 23:59:07');
+(5399, '840oxe282jgx', '648kjlypq441', 'User84', NULL, '+63', '+8801569110030', '182.48.70.173', 'uname+8801569110030', 'user470321731438880@gmail.com', NULL, '$2y$10$EgAHj.fsk8u2KIrPzoIyq.Kx/bUJ43rWL2EtS92S9tW67/JSn4KWu', NULL, 6200.00, 300.00, 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '568600', 'active', 0, 0, 'unban', '2024-11-12 20:14:40', '2024-11-12 20:37:00'),
+(5400, '648kjlypq441', 'eof411elm942', 'User65', NULL, '+63', '65465654', '88.246.194.56', 'uname65465654', 'user554441731970747@gmail.com', NULL, '$2y$10$QbgRu.X4zQboYh1wot.7eObmgMe5S4Y2KciYK9SseekH0sBJYRaNy', NULL, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '466733', 'active', 0, 0, 'unban', '2024-11-18 23:59:07', '2024-11-18 23:59:07');
 
 -- --------------------------------------------------------
 

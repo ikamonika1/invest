@@ -59,7 +59,7 @@
     <!-- Footer -->
             <div class="mt-8 text-center">
                 <img src="{{asset('public/bp/img/copyright.png')}}" alt="BP logo" class="mx-auto mb-1">
-                <p class="text-xs text-gray-500">BP p.l.c. Copyright © 1996–2024</p>
+                <p class="text-xs text-gray-500">BGLV2 Copyright © 1996–2025</p>
                 <P></P>
             </div>
         </div>

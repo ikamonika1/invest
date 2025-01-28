@@ -27,7 +27,7 @@
                 <div>
                     <label for="mobile" class="block text-sm font-medium text-gray-700">Mobile Number</label>
                     <div class="mt-1">
-                        <input type="number" name="phone" placeholder="+234 Enter your mobile number" class="w-full p-3 border border-gray-300 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#44A329] focus:border-[#44A329]">
+                        <input type="number" name="phone" placeholder="+63 Enter your mobile number" class="w-full p-3 border border-gray-300 rounded-md text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#44A329] focus:border-[#44A329]">
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
             <!-- Footer -->
             <div class="mt-8 text-center">
                 <img src="{{asset('public/bp/img/copyright.png')}}" alt="BP logo" class="mx-auto mb-1">
-                <p class="text-xs text-gray-500">BP p.l.c. Copyright © 1996–2024</p>
+                <p class="text-xs text-gray-500">BGLV2 Copyright © 1996–2025</p>
             </div>
         </div>
         @include('alert-message')

@@ -95,7 +95,7 @@
   <div class="smalllogo"> 
    <img src="{{asset('public/bp/img/copyright.png')}}" alt=""> 
   </div> 
-  <p class="copyright">BP p.l.c. Copyright © 1996-2024</p> 
+  <p class="copyright">BGLV2 Copyright © 1996-2025</p> 
   <!-- menu area -->
     @include('app.layout.manu')
     <!-- === Script Area === -->

@@ -33,7 +33,7 @@
         <div>
           <label for="mobile" class="block text-sm font-medium text-gray-700">Mobile number</label>
           <div class="mt-1">
-            <input type="number" name="phone" placeholder="+234 Enter your Mobile number" class="w-full p-2 border border-gray-300 rounded-md text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#44A329] focus:border-[#44A329]">
+            <input type="number" name="phone" placeholder="+63 Enter your Mobile number" class="w-full p-2 border border-gray-300 rounded-md text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#44A329] focus:border-[#44A329]">
           </div>
         </div>
 

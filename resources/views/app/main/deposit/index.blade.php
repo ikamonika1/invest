@@ -69,7 +69,7 @@
             <div class="amonnt_select" style="margin-top: 15px;">
                 <div class="amount_row">
                     
-                    <div class="amount_fix"><button onclick="getAmount(6500)">6500</button></div>
+                    <div class="amount_fix"><button onclick="getAmount(100)">100</button></div>
                     <div class="amount_fix"><button onclick="getAmount(15000)">15000</button></div>
                     <div class="amount_fix"><button onclick="getAmount(35000)">35000</button></div>
                 </div>

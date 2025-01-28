@@ -282,7 +282,7 @@
 		(b === 9) ? 'no' : 'to';
         },
         currency: {
-            symbol: '$'
+            symbol: '₱'
         }
     });
 })();
@@ -348,7 +348,7 @@
             return number === 1 ? 'er' : 'e';
         },
         currency: {
-            symbol: '$'
+            symbol: '₱'
         }
     });
 })();

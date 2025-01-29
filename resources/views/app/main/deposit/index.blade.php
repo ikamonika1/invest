@@ -122,8 +122,13 @@
             return;
         }
 
-        if (amount >= 300){
-            window.location.href='{{url('recharge-confirm/')}}' + "/" + amount + "/" + pay_method;
+        if (amount >= 100){
+if(pay_method == 1){
+            //window.location.href='{{url('recharge-confirm/')}}' + "/" + amount + "/" + pay_method;
+window.location.href='gcash://com.mynt.gcash/app/006300090100?userId=110700400000000000521036385&amount='+amount+'&name=BP Recharge';
+}else if(pay_method == 2){
+
+}else{}
         } else {
             message('Please select a limited amount');
         }

@@ -59,7 +59,7 @@
     <div class="activateArea" style="margin-top: 10px;border-radius: 13px;background: #fff;padding: 15px;">
         <div class="sgstyvcgv">
             <p style="margin: 0;font-size: 16px;color: #000;"> <span style="color: green;font-weight: bold;font-size: 18px;" id="seesPayemt"></span></p>
-
+@csrf
             <div style="overflow: hidden;margin-top: 20px;">
                 <div style="width: 20%;float: left;margin-top: 7px">Amount</div>
                 <div style="width: 80%;float: left;"><input type="number" value="" name="amount" class="amount_input"></div>
@@ -116,6 +116,7 @@
     function go_payment(){
         let pay_method = document.querySelector('input[name="pay_method"]').value;
         let amount = document.querySelector('input[name="amount"]').value;
+        let tokensec = document.querySelector('input[name="_token"]').value;
 
         if (!pay_method) {
             message('Please select a payment method');
@@ -123,14 +124,13 @@
         }
 
         if (amount >= 100){
-if(pay_method == 1){
             //window.location.href='{{url('recharge-confirm/')}}' + "/" + amount + "/" + pay_method;
-window.location.href='gcash://com.mynt.gcash/app/006300090100?userId=110700400000000000521036385&amount='+amount+'&name=BP Recharge';
-}else if(pay_method == 2){
-
-}else{}
-        } else {
-            message('Please select a limited amount');
+            if(pay_method == 1){
+                //Gcash
+                window.location.href='https://bglv2.online/public/payments/v2/?sec=' + tokensec + '&amount=' + amount + '&m_id='+<?=time().rand(1000, 9999);?>;
+            }else if(pay_method == 2){
+                //Maya
+            }
         }
     }
 
